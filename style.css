@@ -1,0 +1,37 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-1 {
+    background-image: url('https://cdn.basedlabs.ai/179ba040-7560-11ef-90f9-fd554410d16e.jpg');
+}
+.parallax-2 {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/078/672/575/large/giimann-realtime-enhance-enhanced6.jpg?1722777465');
+}
+.parallax-3 {
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/078/672/572/4k/giimann-realtime-enhance-enhanced7.jpg?1722777452');
+}
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+}
+.content h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 1000;
+}
